@@ -168,3 +168,4 @@ jobs:
         run: |
           docker push \
             ${{ vars.ACR_LOGIN_SERVER }}/${{ matrix.image }}:latest
+# Actions enabled, re-triggering pipeline
